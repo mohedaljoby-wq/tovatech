@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NovaTech premium technology solutions.">
+  <title>NovaTech | Technology Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand brand" href="index.html"><span class="brand-icon"><i class="fa-solid fa-bolt"></i></span>NovaTech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions d-flex gap-2 align-items-center"><a class="nav-link" href="login.html">Login</a><a class="btn btn-gradient btn-sm" href="register.html">Register</a></div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- Image slider template based on Swiper.js Fade Effect demo (WOWSlider-compatible alternative since WOWSlider CDN is unreliable)
+       Official demo: https://swiperjs.com/demos#effect-fade -->
+  <section class="hero-slider swiper" aria-label="NovaTech highlights">
+    <div class="swiper-wrapper">
+      <article class="swiper-slide" style="background-image:url('https://picsum.photos/id/1/1800/1000')">
+        <div class="slide-overlay"></div><div class="hero-content container">
+          <span class="eyebrow">DIGITAL INNOVATION</span><h1>Build the <span>future</span> with NovaTech.</h1><p>Elegant digital products, intelligent experiences, and scalable technology for ambitious teams.</p>
+          <div class="d-flex gap-3 flex-wrap"><a href="services.html" class="btn btn-gradient">Explore Services</a><a href="contact.html" class="btn btn-outline-light pill-btn">Start a Project</a></div>
+        </div>
+      </article>
+      <article class="swiper-slide" style="background-image:url('https://picsum.photos/id/3/1800/1000')">
+        <div class="slide-overlay"></div><div class="hero-content container">
+          <span class="eyebrow">SMART SOLUTIONS</span><h2>Technology that <span>moves</span> your business.</h2><p>From strategy to launch, we turn complex ideas into clear, high-performing digital solutions.</p>
+          <div class="d-flex gap-3 flex-wrap"><a href="about.html" class="btn btn-gradient">Meet NovaTech</a><a href="contact.html" class="btn btn-outline-light pill-btn">Talk to Us</a></div>
+        </div>
+      </article>
+      <article class="swiper-slide" style="background-image:url('https://picsum.photos/id/180/1800/1000')">
+        <div class="slide-overlay"></div><div class="hero-content container">
+          <span class="eyebrow">PREMIUM DIGITAL</span><h2>Ideas engineered for <span>impact.</span></h2><p>Modern interfaces and dependable engineering designed around your customers and goals.</p>
+          <div class="d-flex gap-3 flex-wrap"><a href="services.html" class="btn btn-gradient">View Solutions</a><a href="register.html" class="btn btn-outline-light pill-btn">Join NovaTech</a></div>
+        </div>
+      </article>
+    </div>
+    <div class="swiper-pagination"></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div>
+  </section>
+
+  <section class="section-pad" id="features">
+    <div class="container">
+      <div class="section-heading text-center"><span class="eyebrow">WHY CHOOSE US</span><h2>Designed to make technology <span>simple.</span></h2><p>Focused expertise, thoughtful design, and measurable digital outcomes.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="icon-box"><i class="fa-solid fa-wand-magic-sparkles"></i></div><h3>Creative by Design</h3><p>Premium interfaces that balance visual impact with effortless usability.</p></article>
+        <article class="feature-card"><div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div><h3>Built for Trust</h3><p>Clean architecture, responsive experiences, and dependable implementation.</p></article>
+        <article class="feature-card"><div class="icon-box"><i class="fa-solid fa-chart-line"></i></div><h3>Growth Focused</h3><p>Digital solutions shaped around performance, conversion, and long-term value.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad soft-bg">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">OUR SERVICES</span><h2>Everything you need to <span>go digital.</span></h2></div>
+      <div class="service-grid">
+        <article class="service-card"><i class="fa-solid fa-code"></i><h3>Web Development</h3><p>Responsive websites engineered for speed and clarity.</p><a href="services.html">Learn More <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="service-card"><i class="fa-solid fa-pen-ruler"></i><h3>UI/UX Design</h3><p>Human-centered interfaces with premium visual systems.</p><a href="services.html">Learn More <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="service-card"><i class="fa-solid fa-mobile-screen-button"></i><h3>Mobile Apps</h3><p>Beautiful app experiences built around real user needs.</p><a href="services.html">Learn More <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="service-card"><i class="fa-solid fa-cloud"></i><h3>Cloud Solutions</h3><p>Scalable digital infrastructure for modern businesses.</p><a href="services.html">Learn More <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="service-card"><i class="fa-solid fa-database"></i><h3>Data Solutions</h3><p>Structured data experiences that make information useful.</p><a href="services.html">Learn More <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="service-card"><i class="fa-solid fa-robot"></i><h3>AI Integration</h3><p>Practical intelligent features for faster digital workflows.</p><a href="services.html">Learn More <i class="fa-solid fa-arrow-right"></i></a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <article><strong>150+</strong><span>Projects</span></article><article><strong>80+</strong><span>Clients</span></article><article><strong>12+</strong><span>Years</span></article><article><strong>25+</strong><span>Awards</span></article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <article><a class="brand footer-brand" href="index.html"><span class="brand-icon"><i class="fa-solid fa-bolt"></i></span>NovaTech</a><p>Premium technology solutions for ambitious digital teams.</p><div class="social-row"><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></div></article>
+    <article><h3>Quick Links</h3><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li><li><a href="login.html">Login</a></li></ul></article>
+    <article><h3>Services</h3><ul><li>Web Development</li><li>UI/UX Design</li><li>Cloud Solutions</li><li>AI Integration</li></ul></article>
+    <article><h3>Newsletter</h3><p>Get practical digital insights in your inbox.</p><form class="newsletter-form"><label class="visually-hidden" for="newsletter">Email</label><input id="newsletter" type="email" placeholder="Your email" required><button class="btn btn-gradient" type="submit">Subscribe</button></form></article>
+  </div>
+  <div class="container footer-bottom"><p>© 2026 NovaTech. All rights reserved.</p><small>Innovate. Build. Elevate.</small></div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="js/main.js"></script>
+<script src="js/validation.js"></script>
+</body>
+</html>

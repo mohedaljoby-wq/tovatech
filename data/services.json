@@ -1,0 +1,56 @@
+{
+  "web-development": {
+    "title": "Web Development",
+    "description": "Responsive, accessible front-end experiences with clean HTML, modern CSS, JavaScript, and thoughtful component structure.",
+    "features": [
+      "Responsive layouts",
+      "Accessibility-minded markup",
+      "Performance-focused front end"
+    ]
+  },
+  "ui-ux-design": {
+    "title": "UI/UX Design",
+    "description": "Interfaces that make complex products easy to understand and enjoyable to use.",
+    "features": [
+      "Wireframes and prototypes",
+      "Design systems",
+      "User-centered interaction"
+    ]
+  },
+  "mobile-apps": {
+    "title": "Mobile Apps",
+    "description": "Mobile product experiences designed around clarity, speed, and real-world user behavior.",
+    "features": [
+      "Mobile-first thinking",
+      "Clear interaction flows",
+      "Polished visual direction"
+    ]
+  },
+  "cloud-solutions": {
+    "title": "Cloud Solutions",
+    "description": "Scalable digital infrastructure concepts that support growing products and teams.",
+    "features": [
+      "Scalable architecture concepts",
+      "Deployment planning",
+      "Reliability principles"
+    ]
+  },
+  "data-solutions": {
+    "title": "Data Solutions",
+    "description": "Structured data experiences that help teams find, understand, and use information effectively.",
+    "features": [
+      "Data organization",
+      "Dashboard concepts",
+      "Actionable reporting"
+    ]
+  },
+  "ai-integration": {
+    "title": "AI Integration",
+    "description": "Practical AI opportunities that improve workflows without unnecessary complexity.",
+    "features": [
+      "AI workflow concepts",
+      "Automation opportunities",
+      "Human-centered AI features"
+    ]
+  }
+}
